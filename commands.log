@@ -1,0 +1,26 @@
+git init
+dir
+git add *.txt
+git status
+git rm
+git commit -m "upload test"
+git config --global user.name "lostcode"
+git config --global user.email "marman.hadi.pranoto@gmail.com"
+git commit -m "upload test"
+git init
+git add *.txt
+git commit -m "upload test"
+git remote add origin https://github.com/code-lost/git01.git
+git push -u origin master
+git commit -m "upload test"
+git push -u origin master
+git add .
+git commit -m "upload 2"
+git push -u origin master
+git commit -m "upload test"
+git push -u origin master
+git add .
+git add *.txt
+git commit -m "upload test"
+git push -u origin master
+doskey /history > commands.log
